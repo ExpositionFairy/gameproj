@@ -8,7 +8,7 @@ function menuScene:__draw(...)
 
 end
 
-function menuScene:__update(...)
+function menuScene:__update(dt)
 
 end
 
