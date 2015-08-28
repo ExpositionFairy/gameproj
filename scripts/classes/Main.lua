@@ -1,7 +1,10 @@
+local class = require("scripts/libs/middleclass/middleclass");
+
 local Main = class("Main");
 
 function Main:initialize(name)
-	self.name = name or "noName";
+	assert(name, 'An instance of the class has no NANE.')
+	self.name = name
 	self.parent = nil;
 	self.children = {};
 end

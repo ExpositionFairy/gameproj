@@ -1,11 +1,10 @@
 function love.load(arg)
 	require('assets');
-	require('scripts');
-	
+		
 	menuScene = require('scripts/scenes/menu');
 	gameScene = require('scripts/scenes/game');
 
-	activeScene = menuScene;
+	activeScene = gameScene;
 	activeScene:load();
 end
 

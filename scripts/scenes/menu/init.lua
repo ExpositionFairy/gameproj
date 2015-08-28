@@ -1,3 +1,5 @@
+local Scene = require "scripts/classes/entity/Scene";
+
 menuScene = Scene:new('menuScene');
 
 function menuScene:__load(...)
